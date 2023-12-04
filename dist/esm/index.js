@@ -623,4 +623,4 @@ function autoAnimate(el, config) {
     });
 }
 
-export { autoAnimate as default };
+export { autoAnimate, autoAnimate as default };

@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 /******************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -625,4 +627,5 @@ function autoAnimate(el, config) {
     });
 }
 
-module.exports = autoAnimate;
+exports.autoAnimate = autoAnimate;
+exports.default = autoAnimate;
