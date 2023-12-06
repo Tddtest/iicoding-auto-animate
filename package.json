@@ -1,0 +1,33 @@
+{
+  "name": "@iicoding/auto-animate",
+  "version": "0.0.9",
+  "main": "dist/cjs/index.js",
+  "types": "dist/esm/index.d.ts",
+  "module": "dist/esm/index.js",
+  "type": "module",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tddtest/iicoding-auto-animate.git"
+  },
+  "keywords": [
+    "auto-animate",
+    "animate",
+    "react animate",
+    "vue animate",
+    "animate component"
+  ],
+  "bugs": {
+    "url": "https://github.com/Tddtest/iicoding-auto-animate/issues"
+  },
+  "homepage": "https://github.com/Tddtest/iicoding-auto-animate#readme",
+  "umdModuleName": "autoAnimate",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
